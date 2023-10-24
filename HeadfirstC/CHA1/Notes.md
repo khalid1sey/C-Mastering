@@ -15,3 +15,14 @@ c - is a langugae for small and fast programms.
     ANSI c(late 1980s) - is used for oldest code
     c99( from 1999)
     c11(realeased 2011)s
+
+Structure Of C code
+    C is a very, very small 
+    language and it can do 
+    almost nothing without 
+    the use of  external 
+    libraries. You will need 
+    to tell the compiler what 
+    external code to use by 
+    including header files 
+    for the relevant libraries
