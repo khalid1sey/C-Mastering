@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int c = 0;
+    int c = 0;  
     while (c <= 10)
     {
         printf("I am Printed %d\n\n", c);
