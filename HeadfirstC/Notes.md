@@ -10,8 +10,8 @@ c - is a langugae for small and fast programms.
 
     most operating systems, most computer languages and most software games are written in c so its the most fundemental and cross platform low level language.
 
-    there are three standards
+    there are three standards and that are not that huge differences
 
     ANSI c(late 1980s) - is used for oldest code
     c99( from 1999)
-    c11(realeased 2011)
+    c11(realeased 2011)s
