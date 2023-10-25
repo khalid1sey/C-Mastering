@@ -31,5 +31,8 @@ strings
     int length = sizeof(str);
 
 array variables
-    When you create an array, the array variable can be used as a pointer to the start of  the array in memory. When C sees a line of code in a function like this
+    When you create an array, the array variable can be used as a pointer to the start of  the array in memory. 
+     example When C sees a line of code in a function like this
     char quote[] = "C is Awesome"; //the variable quote points to the first character which is "C"
+    The computer will set aside space on the stack for each of  the characters in the string, plus the \0 end character. But it will also associate the address of  the first character with the quote variable. 
+    Every time the quote variable is used in the code, the computer will substitute it with the address of  the first character in the string. In fact, the array variable is just like a pointer:
