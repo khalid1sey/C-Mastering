@@ -25,7 +25,7 @@ memory manupilation
 
 strings
     strings are array of characters or sequence of alphanumeric words.
-    ex char str[]; //str is declared as array c we dont know the size or the length of the string to adress this is there is (sizeof()) operator a function that returns size or length of a string the return value is integer.it returns space occupied by peice of data.
+    ex char str[]; //str is declared as array c we dont know the size or the length of the string to adress this is there is (sizeof()) operator  that returns size or length of a string the return value is integer.it returns space occupied by peice of data.
 
     ex char str = "Hello World";
     int length = sizeof(str);
@@ -36,3 +36,6 @@ array variables
     char quote[] = "C is Awesome"; //the variable quote points to the first character which is "C"
     The computer will set aside space on the stack for each of  the characters in the string, plus the \0 end character. But it will also associate the address of  the first character with the quote variable. 
     Every time the quote variable is used in the code, the computer will substitute it with the address of  the first character in the string. In fact, the array variable is just like a pointer:
+
+pointer decay 
+    f you assign an array to a pointer variable, then the pointer variable will only contain the address of the array. The pointer doesn’t know anything about the size of the array, so a little information has been lost. That loss of information is called decay.

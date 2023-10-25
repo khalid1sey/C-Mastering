@@ -15,7 +15,7 @@ int main(void){
     printf("adress of msg  : %p\n", &msg);
     printf("adress of msg  0 : %p\n", &msg[0]); // the first adress and the msg variable adress is the same so it true
     printf("adress of msg  1 : %p\n", &msg[1]);
-    printf("adress of msg  5: %p\n", &msg[5]);
+    printf("adress of msg  5: %a\n", &msg[5]);
     printf("adress of msg  null terminating 12: %p\n", &msg[12]);
     return 0;
 }
