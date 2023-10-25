@@ -29,3 +29,7 @@ strings
 
     ex char str = "Hello World";
     int length = sizeof(str);
+
+array variables
+    When you create an array, the array variable can be used as a pointer to the start of  the array in memory. When C sees a line of code in a function like this
+    char quote[] = "C is Awesome"; //the variable quote points to the first character which is "C"
