@@ -15,9 +15,17 @@ operators in pointer
 
     *(pointer) - its sets a variable as a pointer  example int *pointer;
 
-    %p format : displays adress of a given variable.
+    %p format : displays adress of a given variable. ex        int x = 10; 
+                                                               printf("%p", x);
 
 memory manupilation
     Every time you declare a variable, the computer creates  space for it somewhere in memory. 
     - If  you declare a variable inside a function like main(), the computer will store it in a section of  memory called the stack. 
     - If a variable is declared outside any function, it will be stored in the globals section of  memory.
+
+strings
+    strings are array of characters or sequence of alphanumeric words.
+    ex char str[]; //str is declared as array c we dont know the size or the length of the string to adress this is there is (sizeof()) operator a function that returns size or length of a string the return value is integer.
+
+    ex char str = "Hello World";
+    int length = sizeof(str);
