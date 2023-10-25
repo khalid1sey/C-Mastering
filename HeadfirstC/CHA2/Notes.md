@@ -25,7 +25,7 @@ memory manupilation
 
 strings
     strings are array of characters or sequence of alphanumeric words.
-    ex char str[]; //str is declared as array c we dont know the size or the length of the string to adress this is there is (sizeof()) operator a function that returns size or length of a string the return value is integer.
+    ex char str[]; //str is declared as array c we dont know the size or the length of the string to adress this is there is (sizeof()) operator a function that returns size or length of a string the return value is integer.it returns space occupied by peice of data.
 
     ex char str = "Hello World";
     int length = sizeof(str);

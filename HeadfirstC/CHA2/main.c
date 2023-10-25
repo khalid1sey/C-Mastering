@@ -8,9 +8,9 @@ int main(void){
     printf("%p\n", &y);
 
 
-    char msg[] = "Hello World";
+    char msg[] = "Hello World this is c";
    
-    printf("size of msg  : %li", sizeof(msg)); //the characters in msg are actually 11 but there  null terminating at the last (\0) so they are 12
+    printf("size of msg  : %li\n", sizeof(msg)); //the characters in msg are actually 11 but there  null terminating at the last (\0) so they are 12
     
     printf("adress of msg  : %p\n", &msg);
     printf("adress of msg  0 : %p\n", &msg[0]); // the first adress and the msg variable adress is the same so it true
