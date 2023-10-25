@@ -39,3 +39,7 @@ array variables
 
 pointer decay 
     f you assign an array to a pointer variable, then the pointer variable will only contain the address of the array. The pointer doesn’t know anything about the size of the array, so a little information has been lost. That loss of information is called decay.
+
+
+    char str[] = "This is string literal";
+    char *str = "this is array of characters";
