@@ -7,4 +7,9 @@ int main(void){
     printf("%p\n", &x);
     printf("%p\n", &y);
     return 0;
+    int n = 0;
+    char msg[n];
+    scanf("%s", msg);
+
+    printf("size of msg is : %li", sizeof(msg));
 }
